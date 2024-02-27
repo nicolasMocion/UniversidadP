@@ -3,8 +3,8 @@ public class Main {
 
         //Matrices deben ser de las mismas dimensiones
 
-        int[][] matrix1 = {{2,2,2}, {4,5,6}, {6,7,8}};
-        int[][] matrix2 = {{2,3,5}, {7,5,9}, {9,8,8}};
+        int[][] matrix1 = {{2,2,3}, {4,6,3}};
+        int[][] matrix2 = {{2,3,5}, {7,5,8}};
         int[][] matrixResultado = new int[matrix1.length][matrix1[0].length];
 
         sumarMatrices(matrix1,matrix2,matrixResultado,0,0);
