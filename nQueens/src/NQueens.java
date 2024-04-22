@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class NQueens {
 
     public static void main(String[] args) {
-        ArrayList<ArrayList<String>> soluciones = nReinas(5);
+        ArrayList<ArrayList<String>> soluciones = nReinas(8);
         imprimirSolucion(soluciones);
     }
 
@@ -80,3 +80,8 @@ public class NQueens {
         }
     }
 }
+
+
+
+
+

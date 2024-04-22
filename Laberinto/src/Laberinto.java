@@ -46,8 +46,11 @@ public class Laberinto{
         laberinto[x][y]='*';
 
         boolean result;
+
         result=paso(x+1, y);
-        if (result) return true;
+        if (result){
+            return true;
+        }
 
         result=paso(x-1, y);
         if (result) return true;
@@ -58,7 +61,6 @@ public class Laberinto{
 
         result=paso(x, y-1);
         if (result) return true;
-
 
 
         laberinto[x][y]='f';
